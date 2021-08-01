@@ -25,6 +25,8 @@ driver.get("https://en-gb.facebook.com/login");
 
 //driver.findElement(By.xpath("//a[text()='Sign up for Facebook']")).click();
 driver.findElement(By.xpath("//a[contains(text(),'Sign up for Facebook')]")).click();
+
+
 driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("gulu");
 Thread.sleep(1000);
 driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("gulu123");
